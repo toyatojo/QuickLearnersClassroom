@@ -1,0 +1,92 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<title>Quick Learners Classroom</title>
+		<link rel="stylesheet" type="text/css" href="styleec.css">
+		<style type="text/css">
+			@media screen and (max-width:650px) {
+				.sticky{
+                  font-size: 15px;
+				 
+				}
+				header.sticky{
+			
+			padding: 10px 10px;
+			
+			
+		}
+		header{
+			font-size: 16px;
+			padding: 10px 10px;
+			overflow-x: hidden;
+		}
+		html{  
+			overflow-x: hidden;
+		}
+		#courses{
+			padding-left: 11px ;
+		}
+			}
+		</style>
+		<title></title>
+	</head>
+	<body>
+		<header class="sticky">
+			<a href="index.html" class="logo"><img src="gg.jpg" style="height: 80px;width: 80px;"></a>
+			<ul class="navigation">
+				<li><a href="#banner">Home</a></li>
+				<li><a href="#courses">Courses</a></li>
+				<li><a href="#teach">Teach</a></li>
+				<li><a href="#contact">Contact Us</a></li>
+			</ul>
+		</header>
+		
+	<section class="banner" id="banner">
+		<div class="content">
+			<h2>Welcome!</h2>
+			<b><p>Welcome to Quick Learners Classroom!</p></b>
+			<a href="#courses" class="bt">Courses</a><br>
+			<a href="#teach" class="bt">Teach</a>
+		</div>
+	</section>
+
+	<section class="courses" id="courses">
+		<div class="row">
+			<div class="col50">
+				<h2 style="color: black;font-size: 48px;">Current Courses</h2>
+				<a href="courses.html" class="bt" target="_blank"><img src="myrubik.jpg" style="height: 400px;width: 400px;">
+				<br>View Course</a>
+				
+			</div>
+		</div>
+	
+	</section>
+	<section id="teach" class="teach">
+		<br>
+		<h1>Quick Learner's Classroom gives opportunities to the people who want to teach their skills to other people, we are here to help you by giving you a platform where you can teach students your skills</h1>
+		<p>Click below to submit your application, we will contact you in 72 hours😀</p>
+		<a href="https://forms.gle/ZiYEvssjjzmt5C4Z7" target="_blank" class="bt">OPEN GOOGLE FORM</a>
+	</section>
+	<div>
+		<section id="contact" class="contact">
+		<div><h1>Contact us</h1>
+		
+	<p>	Manas Gawade : +91 8296440341<br>
+		Varnika Daroji : +91 9480053795<br>
+		Instagram:<br>
+		@manas_gawade<br>
+	    @mis.stranger<br>
+	</p>
+
+
+		</div>
+	</section></div>
+	<script type="text/javascript">
+		window.addEventListener('scroll',function(){
+			const header = document.querySelector('header');
+			header.classList.toggle("sticky", window.scrollY > 0)
+		});
+	</script>
+
+	</body>
+	</html>
